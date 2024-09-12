@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Screen Recorder with Transcription</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Screen Recorder</h1>
+
+    <video id="videoPreview" controls style="width: 100%; height: auto"></video>
+
+    <div class="buttons">
+      <button id="start">Start Recording</button>
+      <button id="stop" disabled>Stop Recording</button>
+    </div>
+
+    <div id="transcription">
+      <h3>Transcription:</h3>
+      <p id="transcriptionText"></p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
